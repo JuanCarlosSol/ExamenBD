@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editar Producto</title>
+    </head>
+    <body>
+        <div class="container--edit">
+            <h3><a href="/productos" class="container--a">Volver</a></h3>
+            <h1>EDITAR USUARIO</h1>
+            <form action="/productos/update/{{ producto._id }}" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Código</td>
+                            <td><input type="number" name="codigo" value="{{ producto.codigo }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Descripción</td>
+                            <td><input type="text" name="descripcion" value="{{ producto.descripcion }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Precio</td>
+                            <td><input type="number" name="precio" value="{{ producto.precio }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Stock</td>
+                            <td><input type="number" name="stock" value="{{ producto.stock }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Categoría</td>
+                            <td><input type="text" name="categoria" value="{{ producto.categoria }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Marca</td>
+                            <td><input type="text" name="marca" value="{{ producto.marca }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Modelo</td>
+                            <td><input type="text" name="modelo" value="{{ producto.modelo }}" /></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2"><button type="submit">Actualizar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

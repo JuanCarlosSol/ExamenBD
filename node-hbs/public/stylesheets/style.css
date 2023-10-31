@@ -1,0 +1,156 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.h1--center{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.table th {
+  background-color: #fe6464;
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el contenedor */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container--edit {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container--show {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container--create {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container--a{
+  font-size: 24px;
+}
+
+.container--edit input {
+  text-align: center;
+}
+
+.container--create input {
+  text-align: center;
+}
+
+.container--show input {
+  text-align: center;
+}
+
+.container--edit table {
+  margin: 0 auto; 
+  text-align: left; 
+}
+
+.container--create table {
+  margin: 0 auto; 
+  text-align: left; 
+}
+
+.container--show table {
+  margin: 0 auto; 
+  text-align: left; 
+}
+
+
+table td, table th {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.input--button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.input--button:hover {
+  background-color: #0056b3;
+}
